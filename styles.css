@@ -1,0 +1,100 @@
+
+body, html {
+		height: 100%;
+}
+
+#foto {
+		background-image: url("https://img.freepik.com/premium-photo/there-is-picture-beautiful-underwater-scene-with-rocks-plants-generative-ai_1028723-2329.jpg");
+		height: 100%;
+  		background-color: black;
+  		background-repeat: no-repeat;
+  		background-position: center;
+  		background-size: cover;			
+}
+
+
+#wyalqvesha {
+	    width: 200px;
+		height: 200px;
+		animation-name: pirveli;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;	
+		margin-top: 500px;
+		left: 0;
+		position: fixed;
+}
+
+@keyframes pirveli {
+					from{
+							left:0;
+					}
+					to {
+						left:100vw;
+					}
+}
+
+#tevzebi { 
+		width: 200px;
+		height: 200px;
+		animation-name: meore;
+		animation-duration: 15s;
+		animation-iteration-count: infinite;	
+		margin-top: 400px;
+		right: 0;
+		position: fixed;
+}
+
+@keyframes meore {
+					from{
+							right:0;
+					}
+					to {
+						right:100vw;
+					}
+}
+		
+#navi  { 
+		width: 200px;
+		height: 200px;
+		animation-name: mesame;
+		animation-duration: 50s;
+		animation-iteration-count: infinite;	
+		margin-top: 50px;
+		left: 50;
+		position: fixed;
+}
+
+@keyframes mesame {
+					from{
+							left:50px;
+					}
+					to {
+							left:100vw;
+					}
+}
+
+#bavshvebi  { 
+		width: 150px;
+		height: 150px;
+		animation-name: meotxe;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;	
+		margin-top: 200px;
+		margin-left: 100px;
+		left: 0;
+		position: fixed;
+}
+
+@keyframes meotxe{
+					from{
+								transform: rotate(0deg);
+					}
+					to {
+						transform: rotate(45deg);
+					}
+}
+
+			
+
+
+
